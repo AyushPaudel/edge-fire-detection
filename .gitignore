@@ -1,0 +1,24 @@
+# Python / environment
+env/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+
+# Datasets (not redistributed)
+dataset/
+dataset_clean/
+
+# Experiment artifacts
+checkpoints/
+checkpoints_clean/last.pt
+models_old/
+logs/
+demo/
+test_clip.mp4
+out*.mp4
+*_prep.onnx
+*.trt
